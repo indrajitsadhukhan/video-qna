@@ -53,7 +53,11 @@ def func():
         segment.export(segment_path,format="wav")
         k=k+1
 
+<<<<<<< HEAD
     openai.api_key = "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"
+=======
+    openai.api_key = ""
+>>>>>>> 39e1c9dc520fb6136d311e48de31c60fabec64f0
     with open('Test.txt','w') as f:
         f.write("")
 
@@ -100,7 +104,6 @@ submit = st.button("Submit")
 if submit:
     st.write("",fetch_answer(question,reader))
 
-# os.environ["OPENAI_API_KEY"] = "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"
 
 # text_splitter = CharacterTextSplitter(
 #     seperator = "\n",
