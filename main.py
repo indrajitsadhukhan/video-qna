@@ -1,3 +1,6 @@
+# openai.api_key = "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"
+
+
 import os
 import openai
 from pydub import AudioSegment
@@ -50,7 +53,7 @@ def func():
         segment.export(segment_path,format="wav")
         k=k+1
 
-    openai.api_key = "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"
+    openai.api_key = "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"
     with open('Test.txt','w') as f:
         f.write("")
 
